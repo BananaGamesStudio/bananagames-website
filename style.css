@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Burbank', 'Segoe UI', sans-serif;
+    background: rgb(21, 21, 21);
+    height: 2000px;
+}
+
+@font-face {
+    font-family: 'Burbank';
+    src: url(resources/Burbank\ Big\ Condensed\ Bold.otf);
+}
+
+@font-face {
+    font-family: 'Slant';
+    src: url(resources/SLANT.TTF);
+}
+
+@font-face {
+    font-family: 'Moon Get Heavy';
+    src: url(resources/moon_get-Heavy.ttf);
+}
+
+h1{
+    text-transform: uppercase;
+    color: rgb(255, 115, 0);
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background: rgb(29, 29, 29);
+    padding: 10px;
+    z-index: 999999;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img_logo{
+    width: 50px;
+}
+
+.text_logo{
+    width: 150px;
+    margin: 10px;
+}
+
+.background_video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+}
+
+.section1 {
+    position: absolute;
+    left: 50%;
+    font-size: 29px;
+    height: 300px;
+    background: #333;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    padding-top: 60px;
+    transform: translateX(-50%);
+    width: 1500px:
+}
+
+.section1 h1 {
+    margin: 10px
+}
+
+.section1 p {
+    width: 1200px;
+}
+
+.section1 a {
+    color: rgb(0, 149, 255);
+    text-decoration: none;
+}
+
+.section2 {
+    position: absolute;
+    left: 50%;
+    font-size: 29px;
+    height: 300px;
+    background: #333;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    padding-top: 60px;
+    transform: translateX(-50%);
+    width: 1500px:
+}
+
+.section2 h1 {
+    margin: 10px
+}
+
+.section2 p {
+    width: 1200px;
+}
+
+.section3 {
+    position: absolute;
+    left: 50%;
+    font-size: 29px;
+    height: 300px;
+    background: #333;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    padding-top: 60px;
+    transform: translateX(-50%);
+    width: 1500px:
+}
+
+.section3 h1 {
+    margin: 10px
+}
+
+.section3 p {
+    width: 1300px;
+}
